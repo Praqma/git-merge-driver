@@ -1,0 +1,3 @@
+[merge "my-custom-driver"]
+	name = A custom merge driver used to resolve conflicts in certain files
+	driver = my-merge-tool.sh %O %A %B

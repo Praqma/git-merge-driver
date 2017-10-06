@@ -1,0 +1,1 @@
+cp .gitconfig .git/config
