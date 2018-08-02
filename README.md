@@ -1,3 +1,7 @@
+---
+maintainer: praqma-thi
+---
+
 # git-merge-driver
 
 This repository explains how to configure a custom merge driver in Git, allowing a custom tool to be run whenever certain files are caught in a merge conflict.
