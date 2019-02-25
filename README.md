@@ -28,11 +28,10 @@ The `merge` block contains the merge driver's identifier, used to reference the 
 
 The `name` property contains a description of the merge driver.
 
-The `driver` property contains the command that will be called when a conflict occurs.
-A handful of predefined parameters, most notably:
+The `driver` property contains the command that will be called when a conflict occurs. There's a handful of predefined parameters, most notably:
  - `%O`: ancestor’s version of the conflicting file
  - `%A`: current version of the conflicting file
- - `%B`: other branches' version of the conflicting file
+ - `%B`: other branch's version of the conflicting file
 
 
 For more, visit [git-scm.com - Git Attributes](https://git-scm.com/docs/gitattributes).
