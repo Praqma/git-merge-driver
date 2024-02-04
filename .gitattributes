@@ -1,1 +1,2 @@
-*.mrg merge=my-custom-driver
+README.md merge=driver_ours
+*.mrg merge=driver_theirs
