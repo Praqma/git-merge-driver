@@ -5,7 +5,7 @@ printf "
 #######################
 # Merge driver called #
 #######################\n"
-
+sleep 0.5
 cp -f $3 $2
 echo "file was overwrited from another branch!"
 
